@@ -1,0 +1,114 @@
+2022-07-18T09:03:36+00:00 CRITICAL Uncaught Error: Undefined constant "text" in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:10
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(2313): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(661): plugin_sandbox_scrape()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/plugins.php(58): activate_plugin()
+#3 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 10
+
+2022-07-18T09:03:42+00:00 CRITICAL Uncaught Error: Undefined constant "text" in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:10
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(2313): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#2 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 10
+
+2022-07-18T09:03:42+00:00 CRITICAL Uncaught Error: Undefined constant "text" in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:10
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(2313): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#2 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 10
+
+2022-07-18T09:07:30+00:00 CRITICAL Uncaught Error: Undefined constant "text" in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:14
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(2313): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(661): plugin_sandbox_scrape()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/plugins.php(58): activate_plugin()
+#3 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 14
+
+2022-07-18T09:07:33+00:00 CRITICAL Uncaught Error: Undefined constant "text" in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:14
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(2313): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#2 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 14
+
+2022-07-18T09:07:33+00:00 CRITICAL Uncaught Error: Undefined constant "text" in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:14
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/includes/plugin.php(2313): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#2 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 14
+
+2022-07-18T09:47:22+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 42
+
+2022-07-18T09:47:57+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 42
+
+2022-07-18T09:47:58+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 42
+
+2022-07-18T09:48:22+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 41
+
+2022-07-18T09:51:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "create_api_posts_meta_field" not found or invalid function name in /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(561): do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(410): rest_get_server()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(388): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->get_routes_from_namespace()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(359): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(84): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#15 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#16 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php на строке 307
+
+2022-07-18T09:53:50+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 41
+
+2022-07-18T09:55:51+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 46
+
+2022-07-18T09:57:52+00:00 CRITICAL syntax error, unexpected token "}" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 48
+
+2022-07-18T13:13:49+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:52
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): dop()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 52
+
+2022-07-18T16:39:16+00:00 CRITICAL Uncaught InvalidArgumentException: Неизвестное действие 11310 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:797
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(70): ActionScheduler_DBStore->mark_failure()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): ActionScheduler_QueueRunner->run()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-cron.php(138): do_action_ref_array()
+#7 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php на строке 797
+

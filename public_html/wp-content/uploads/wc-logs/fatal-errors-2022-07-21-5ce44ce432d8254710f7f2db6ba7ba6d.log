@@ -1,0 +1,769 @@
+2022-07-21T09:42:08+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on int in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:21
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_get()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 21
+
+2022-07-21T09:44:24+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on int in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:21
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_get()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 21
+
+2022-07-21T09:47:48+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on int in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:22
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_get()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 22
+
+2022-07-21T09:48:08+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on int in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:22
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_get()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 22
+
+2022-07-21T09:49:12+00:00 CRITICAL Uncaught Error: Call to a member function mysql_fetch_assoc() on int in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:22
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_get()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 22
+
+2022-07-21T10:12:36+00:00 CRITICAL Uncaught Error: Call to a member function fetch_assoc() on int in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:24
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_get()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 24
+
+2022-07-21T10:38:23+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:81
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 81
+
+2022-07-21T10:43:53+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:81
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 81
+
+2022-07-21T12:05:12+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:81
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 81
+
+2022-07-21T12:05:43+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:81
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 81
+
+2022-07-21T12:06:04+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:81
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 81
+
+2022-07-21T12:07:38+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:107
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 107
+
+2022-07-21T12:08:32+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:107
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 107
+
+2022-07-21T12:26:18+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:121
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 121
+
+2022-07-21T12:27:02+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:121
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 121
+
+2022-07-21T12:27:32+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:121
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 121
+
+2022-07-21T12:28:46+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:121
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 121
+
+2022-07-21T12:30:27+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:121
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 121
+
+2022-07-21T12:30:58+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:121
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 121
+
+2022-07-21T12:32:44+00:00 CRITICAL Uncaught Error: mysqli_result object is already closed in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:120
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 120
+
+2022-07-21T12:54:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:86
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 86
+
+2022-07-21T12:55:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:86
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 86
+
+2022-07-21T12:57:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:86
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 86
+
+2022-07-21T12:58:36+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:86
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 86
+
+2022-07-21T16:30:19+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:106
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 106
+
+2022-07-21T16:30:56+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:106
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 106
+
+2022-07-21T16:36:18+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:106
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 106
+
+2022-07-21T16:37:29+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:106
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 106
+
+2022-07-21T16:48:25+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:170
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 170
+
+2022-07-21T16:49:51+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:170
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 170
+
+2022-07-21T16:51:37+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:170
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 170
+
+2022-07-21T16:52:17+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:170
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 170
+
+2022-07-21T16:55:05+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_attachment_image_scr() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:171
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 171
+
+2022-07-21T16:58:13+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_attachment_image_scr() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:171
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 171
+
+2022-07-21T16:58:50+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_attachment_image_scr() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:171
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): replace_add_to_cart()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(772): require('...')
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(114): wc_get_template_part()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ClassicTemplate.php(67): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render_single_product()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(86): Automattic\WooCommerce\Blocks\BlockTypes\ClassicTemplate->render()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(255): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-block.php(241): WP_Block->render()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(901): WP_Block->render()
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/blocks.php(939): render_block()
+#13 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/block-template.php(240): do_blocks()
+#14 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#16 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#17 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#18 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 171
+

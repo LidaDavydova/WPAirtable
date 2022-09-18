@@ -1,0 +1,18 @@
+
+16-06-2022 18:07:03 [5.kpipartners.ru][info] Parent plugin start installation!
+16-06-2022 18:07:03 [5.kpipartners.ru][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.5.6
+16-06-2022 18:07:04 [5.kpipartners.ru][info] Parent plugin installation complete!
+-------------------------------
+16-06-2022 18:48:58 [5.kpipartners.ru][info] Try to create backup directory. Backup dir: (/home/admin/web/5.kpipartners.ru/public_html/wp-content/uploads/wio_backup)
+16-06-2022 18:48:58 [5.kpipartners.ru][info] Try to create backup directory. Backup dir: (/home/admin/web/5.kpipartners.ru/public_html/wp-content/uploads/wio_backup/2022/06)
+16-06-2022 18:48:58 [5.kpipartners.ru][info] Preparing to upload a file (/home/admin/web/5.kpipartners.ru/public_html/wp-content/uploads/2022/06/3-47.png) to a remote server (server_1).
+16-06-2022 18:48:59 [5.kpipartners.ru][info] File successfully uploaded to remote server (server_1).
+16-06-2022 18:48:59 [5.kpipartners.ru][info] Preparing to upload a file (/home/admin/web/5.kpipartners.ru/public_html/wp-content/uploads/2022/06/3-47-150x150.png) to a remote server (server_1).
+16-06-2022 18:49:01 [5.kpipartners.ru][info] File successfully uploaded to remote server (server_1).
+16-06-2022 18:49:02 [5.kpipartners.ru][info] Preparing to upload a file (/home/admin/web/5.kpipartners.ru/public_html/wp-content/uploads/2022/06/3-47-240x300.png) to a remote server (server_1).
+16-06-2022 18:49:02 [5.kpipartners.ru][info] File successfully uploaded to remote server (server_1).
+16-06-2022 18:49:02 [5.kpipartners.ru][debug] New queue created #1, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:5776,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:2021749,&quot;final_size&quot;:909241,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:1897923,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1655394542}
+-------------------------------

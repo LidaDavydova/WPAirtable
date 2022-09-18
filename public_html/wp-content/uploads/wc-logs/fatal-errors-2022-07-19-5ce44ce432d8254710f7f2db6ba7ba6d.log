@@ -1,0 +1,560 @@
+2022-07-19T06:48:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:50
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-settings.php(428): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-config.php(96): require_once('...')
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-load.php(50): require_once('...')
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 50
+
+2022-07-19T06:49:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:50
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-settings.php(428): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-config.php(96): require_once('...')
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-load.php(50): require_once('...')
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 50
+
+2022-07-19T06:51:51+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:50
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-settings.php(428): include_once()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-config.php(96): require_once('...')
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-load.php(50): require_once('...')
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 50
+
+2022-07-19T07:27:35+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:10
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_post()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 10
+
+2022-07-19T07:27:50+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:10
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_post()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 10
+
+2022-07-19T07:28:57+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:10
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): wl_post()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 10
+
+2022-07-19T12:55:56+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli_stmt->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T12:57:08+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T12:58:57+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli_stmt->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T13:00:29+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli_stmt->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T13:55:34+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T13:58:52+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('.1.', '.full.')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T14:00:56+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:01:37+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:01:41+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:05:11+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:05:45+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:06:54+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:07:12+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:13:21+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO wp_wc_add_type_of_product (id_product, type) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T14:18:14+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('1', 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T14:20:14+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('1', 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T14:23:02+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (.1., '.full.')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T14:34:50+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('1', 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T14:35:12+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (1, 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:38:46+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('1', 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:40:58+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('1', 'full')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:44:11+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES ('.1.', '.full.')' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(91): mysqli->query()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:50:31+00:00 CRITICAL Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO `wp_wc_add_type_of_product` (`id_product`, `type`) VALUES (?, ?)' at line 1 in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:92
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php(92): mysqli->prepare()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#12 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#13 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 92
+
+2022-07-19T15:55:07+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_query() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:56:19+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_query() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:57:05+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_query() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+
+2022-07-19T15:58:26+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_query() in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:91
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): post_projects_search()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(16): wp()
+#11 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#12 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 91
+

@@ -1,0 +1,949 @@
+# Translation of Plugins - Image optimization &amp; Lazy Load by Optimole - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Image optimization &amp; Lazy Load by Optimole - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-04 14:54:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Image optimization &amp; Lazy Load by Optimole - Development (trunk)\n"
+
+#: inc/admin.php:960
+msgid "The selected images have been offloaded to our servers, you can check them"
+msgstr "Выбранные изображения выгружены на наши серверы, вы можете их проверить"
+
+#: inc/admin.php:961
+msgid "The selected images have been restored to your server, you can check them"
+msgstr "Выбранные изображения были восстановлены на вашем сервере, вы можете их проверить"
+
+#: inc/admin.php:954
+msgid "minutes"
+msgstr "минуты"
+
+#: inc/rest.php:347
+msgid "Error: This email is already registered. Please choose another one."
+msgstr "Ошибка: Этот эмейл уже зарегистрирован. Пожалуйста, выберите другой."
+
+#: inc/admin.php:889
+msgid "Exclude the first <number> images from lazyload on every page to avoid lazy load on above the fold images. Use 0 to disable this."
+msgstr "Исключить первые <number> изображений из \"ленивой\" загрузки на каждой странице для предотвращения искажения изображений \"ленивой\" загрузкой. Используйте 0 для отключения этого. "
+
+#: inc/admin.php:836
+msgid "Lightweight, 25kB in page-weight."
+msgstr "Легковесный, 25кБ в весе страницы."
+
+#: inc/admin.php:867
+msgid "Offload your new images automatically to Optimole Cloud. You will no longer store them on your server and you can restore them back anytime."
+msgstr "Выгружать Ваши новые изображения автоматически в Optimole Cloud. Вы более не будете хранить их на Вашем сервере и Вы можете восстановить их в любое время."
+
+#: inc/cli/cli_media.php:37
+msgid "All images have been uploaded to Optimole Cloud"
+msgstr "Все изображения были загружены в Optimole Cloud"
+
+#: inc/cli/cli_media.php:36
+msgid "Moving all images to Optimole Cloud"
+msgstr "Перемещаю все изображения в Optimole Cloud"
+
+#: inc/admin.php:947
+msgid "Pull all the offloaded images to Optimole Cloud back to your server."
+msgstr "Перетянуть все выгруженные в Optimole Cloud изображения обратно на Ваш сервер."
+
+#: inc/admin.php:837
+msgid "100+ Starter Sites available."
+msgstr "Доступно более 100 стартовых сайтов."
+
+#: inc/admin.php:838
+msgid "AMP/Mobile ready."
+msgstr "Готов к AMP/мобильному устройству."
+
+#: inc/admin.php:835
+msgid "Fast, perfomance built-in WordPress theme."
+msgstr "Быстрая, совершенная встроенная тема WordPress."
+
+#: inc/admin.php:840
+msgid "Fully compatible with Optimole."
+msgstr "Полностью совместим с Optimole."
+
+#: inc/admin.php:839
+msgid "Lots of customizations options."
+msgstr "Множество вариантов настройки."
+
+#: inc/admin.php:945
+msgid "Restore offloaded images"
+msgstr "Восстановить выгруженные изображения"
+
+#: inc/admin.php:946
+msgid "Right now all the new images uploaded to your site are moved automatically to Optimole Cloud. In order to offload the existing ones, please click Sync images and wait for the process to finish. You can rollback anytime."
+msgstr "Прямо сейчас все новые изображения, загруженные на ваш сайт, автоматически перемещаются в Optimole Cloud. Чтобы выгрузить существующие, нажмите «Синхронизировать изображения» и дождитесь завершения процесса. Вы можете откатиться в любое время."
+
+#: inc/admin.php:959
+msgid "An unexpected error occured while offloading all existing images from your site to Optimole "
+msgstr "При выгрузки всех изображений с вашего сайта на сервера Optimole произошла непредвиденная ошибка"
+
+#: inc/admin.php:927
+msgid "Only the images from the selected sites will be displayed on this site."
+msgstr "Только изображения с выбранных сайтов будут показаны на этом сайте."
+
+#: inc/admin.php:956
+msgid "An unexpected error occured while pulling the offloaded back to your site"
+msgstr "Произошла непредвиденная ошибка пока перетягивались выгруженные обратно на Ваш сайт"
+
+#: inc/admin.php:922
+msgid "View images from all sites "
+msgstr "Посмотреть изображения со всех сайтов"
+
+#: inc/admin.php:898
+msgid " here."
+msgstr " здесь."
+
+#: inc/admin.php:844
+msgid "Add site"
+msgstr "Добавить сайт"
+
+#: inc/cli/cli_media.php:41
+msgid "All images have been uploaded to your media library"
+msgstr "Все изображения были загружены в вашу медиатеку"
+
+#: inc/admin.php:815
+msgid "Cloud Integration"
+msgstr "Облачная интеграция"
+
+#: inc/admin.php:921
+msgid "Currently viewing images from all sites "
+msgstr "В настоящее время просматриваются изображения со всех сайтов "
+
+#: inc/admin.php:868
+msgid "Enable cloud library browsing"
+msgstr "Включить просмотр облачных библиотек"
+
+#: inc/admin.php:866
+msgid "Enable offloading images"
+msgstr "Разрешить выгрузку изображений"
+
+#: inc/admin.php:964
+msgid "If you disable this option you will not be able to see the images in the media library without restoring the images first, do you want to restore the images to your site upon disabling the option ?"
+msgstr "Если вы отключите эту опцию, вы не сможете увидеть изображения в медиатеке без предварительного восстановления изображений, хотите ли вы восстановить изображения на вашем сайте после отключения этой опции?"
+
+#: inc/cli/cli_media.php:40
+msgid "Moving all images back to your media library"
+msgstr "Перемещение всех изображений обратно в медиатеку"
+
+#: inc/admin.php:944
+msgid "Offload existing images"
+msgstr "Выгрузить существующие изображения"
+
+#: inc/media_offload.php:498 inc/media_offload.php:499
+msgid "Offload to Optimole"
+msgstr "Выгрузить в Optimole"
+
+#: inc/cli/cli_media.php:60
+msgid "Progress bar"
+msgstr "Индикатор выполнения"
+
+#: inc/media_offload.php:754
+msgid "Push Image to Optimole"
+msgstr "Отправить изображение в Optimole"
+
+#: inc/admin.php:948
+msgid "Sync images"
+msgstr "Синхронизация изображений"
+
+#: inc/admin.php:920
+msgid "Site: "
+msgstr "Сайт: "
+
+#: inc/admin.php:966
+msgid "Please select one ..."
+msgstr "Пожалуйста, выберите один ..."
+
+#: inc/admin.php:958
+msgid "Remove notice"
+msgstr "Удалить уведомление"
+
+#: inc/media_offload.php:514 inc/media_offload.php:515
+#: inc/media_offload.php:755
+msgid "Restore image to media library"
+msgstr "Восстановить изображение в медиатеку"
+
+#: inc/admin.php:949
+msgid "Rollback images"
+msgstr "Откатить изображения"
+
+#: inc/admin.php:926
+msgid "Show images only from these sites: "
+msgstr "Показывать изображения только с этих сайтов: "
+
+#: inc/admin.php:962
+msgid "You can try again to offload the rest of the images to Optimole."
+msgstr "Вы можете попробовать еще раз выгрузить остальные изображения в Optimole."
+
+#: inc/admin.php:957
+msgid "You can try again to pull back the rest of the images."
+msgstr "Вы можете попробовать еще раз, чтобы вернуть остальные изображения."
+
+#: inc/cli/cli_media.php:46
+msgid "You need to have the offload_media option enabled in order to use this command"
+msgstr "У вас должна быть включена опция offload_media, чтобы использовать эту команду"
+
+#: inc/admin.php:924
+msgid "Resize large images original source."
+msgstr "Измените размер исходных изображений больших изображений."
+
+#: inc/admin.php:923
+msgid "We resize all images with sizes greater than the values defined here. Changing this option is not recommended unless large images are not being processed correctly. This does NOT affect the scaling of images on the frontend."
+msgstr "Мы изменяем размеры всех изображений на размер больше, чем указанные здесь значения. Изменять этот параметр не рекомендуется, если большие изображения не обрабатываются правильно. Это НЕ влияет на масштабирование изображений во внешнем интерфейсе."
+
+#: inc/admin.php:931
+msgid "Use native lazyload"
+msgstr "Использовать встроенную отложенную загрузку"
+
+#: inc/admin.php:862
+msgid "Enable lazyload for embedded videos and iframes."
+msgstr "Включить отложенную загрузку для встроенных videos и iframes"
+
+#: inc/rest.php:657
+msgid "The images from: %1$s are not optimized by Optimole. If you would like to do so, you can follow this: %2$sWhy Optimole does not optimize all the images from my site?%3$s."
+msgstr "Изображения с: %1$s не оптимизированы Optimole. Если Вы хотите сделать это, Вы можете перейти к этому: %2$s Почему Optimole не оптимизирует все изображения с моего сайта?%3$s."
+
+#: inc/admin.php:861
+msgid "Lazyload iframes/videos"
+msgstr "Отложенная загрузка iframes/videos"
+
+#: inc/admin.php:908
+msgid "Use browser native lazyload if supported, fallback to classic lazyload otherwise. When using browser native lazyload the auto scale feature is disabled"
+msgstr "Используйте встроенную отложенную загрузку браузера, если она поддерживается, в противном случае используйте классическую отложенную загрузку. При использовании встроенной отложенной загрузки браузера функция автоматического масштабирования отключена"
+
+#: inc/rest.php:642
+msgid "No images available on the current page."
+msgstr "На текущей странице нет изображений."
+
+#: inc/rest.php:669
+msgid "Your account is currently disabled due to exceeding quota and Optimole is no longer able to optimize the images. In order to fix this you will need to %1$supgrade%2$s."
+msgstr "Ваш учетная запись в настоящее время отключена из-за превышения квоты, и Optimole больше не может оптимизировать изображения. Чтобы исправить это, вам необходимо %1$sОбновить%2$s."
+
+#: inc/admin.php:864
+msgid "Enable error diagnosis tool"
+msgstr "Включить диагностику ошибок"
+
+#: inc/admin.php:73
+msgid "debugger"
+msgstr "отладчик"
+
+#: inc/rest.php:689
+msgid "No issues detected, everything is running smoothly."
+msgstr "Никаких проблем не обнаружено, все работает гладко."
+
+#: inc/admin.php:298
+msgid "Optimole page analyzer"
+msgstr "Анализатор страниц Optimole"
+
+#: inc/admin.php:865
+msgid "Provides a troubleshooting mechanism which should help you identify any possible issues with your site using Optimole."
+msgstr "Предоставляет механизм устранения неполадок, который должен помочь вам определить любые возможные проблемы с вашим сайтом с помощью Optimole."
+
+#: inc/admin.php:297
+msgid "We are checking the current page for any issues with optimized images ..."
+msgstr "Мы проверяем текущую страницу на предмет проблем с оптимизированными изображениями ..."
+
+#: inc/rest.php:681
+msgid "We are not able to download the images from %1$s. Please check %2$sthis%3$s document for a more advanced guide on how to solve this. "
+msgstr "Мы не можем загрузить изображения из %1$s. Ознакомьтесь с документом %2$sздесь%3$s для получения более подробного руководства по решению этой проблемы. "
+
+#: inc/admin.php:79
+msgid "Troubleshoot this page"
+msgstr "Устранить неполадки на этой странице"
+
+#: inc/rest.php:677
+msgid "The domain: %1$s is not allowed to optimize images using your Optimole account. You can add this to the allowed list %2$shere%3$s."
+msgstr "Домен: %1$s не разрешен для оптимизации изображений с помощью вашего аккаунта Optimole. Вы можете добавить его в список разрешенных %2$shere%3$s."
+
+#: inc/conflicts/w3_total_cache_cdn.php:25
+msgid "It seems your are using W3 Total Cache. %1$s If you are using the css or javascript minify/combine option from  %2$sW3 Total Cache -> Perfomance -> Minify page.%3$s %1$s Add this line: %4$s to Include external files/libraries and check Use regular expressions for file matching checkbox. "
+msgstr "Похоже, что вы используете W3 Total Cache. %1$s Если вы используете опцию css или javascript minify/combine из %2$sW3 Total Cache -> Perfomance -> Minify page.%3$s %1$s Добавьте эту строку: %4$s в Include external files/libraries и установите флажок Use regular expressions for file matching. "
+
+#: inc/admin.php:930
+msgid "Scale Images"
+msgstr "Масштабировать изображения"
+
+#: inc/admin.php:933
+msgid "Off"
+msgstr "Выключено"
+
+#: inc/admin.php:932
+msgid "On"
+msgstr "Включено"
+
+#: inc/admin.php:940
+msgid "Minify CSS files"
+msgstr "Сжать файлы CSS"
+
+#: inc/admin.php:941
+msgid "Once Optimole will serve your CSS files, it will also minify the files and serve them via CDN."
+msgstr "Как только Optimole будет обслуживать ваши CSS-файлы, он также сожмет их и будет загружать их через CDN."
+
+#: inc/admin.php:942
+msgid "Minify JS files"
+msgstr "Сжать файлы JS"
+
+#: inc/admin.php:943
+msgid "Once Optimole will serve your JS files, it will also minify the files and serve them via CDN."
+msgstr "Как только Optimole будет обслуживать ваши JS-файлы, он также сожмет их и будет загружать их через CDN."
+
+#: inc/admin.php:848
+msgid "Clear cached resources"
+msgstr "Очистка кэш-ресурсов"
+
+#: inc/admin.php:938
+msgid "Serve CSS & JS through Optimole"
+msgstr "Обслуживание CSS и JS через Optimole"
+
+#: inc/admin.php:904
+msgid "When this option is off, we disable the automatic scaling of images on lazyload."
+msgstr "Когда эта опция выключена, мы отключаем автоматическое масштабирование изображений при отложенной загрузке."
+
+#: inc/admin.php:847
+msgid "Clear all cached resources(images,js,css) by Optimole from this site. Useful if you updated them and Optimole shows the old version."
+msgstr "Очистите все кешированные ресурсы (изображения, js, css) от Optimole с этого сайта. Полезно, если вы обновили их и Optimole показывает старую версию."
+
+#: inc/admin.php:939
+msgid "Useful when you have images into CSS/JS files. Optimole will optimize the images from them and serve the CSS/JS through the CDN."
+msgstr "Полезно, когда у вас есть изображения в файлах CSS/JS. Optimole оптимизирует изображения из них и будет обслуживать CSS/JS через CDN."
+
+#: inc/api.php:87
+msgid "You can clear cache only once per 5 minutes."
+msgstr "Очищать кэш можно только 1 раз в пять минут"
+
+#: inc/rest.php:236
+msgid "Can not get new token from Optimole service"
+msgstr "Не удается получить новый токен от службы Optimole"
+
+#: inc/admin.php:830
+msgid "Site audit"
+msgstr "Проверка сайта"
+
+#: inc/admin.php:828
+msgid "Extend visits limit"
+msgstr "Продлить лимит посещений"
+
+#: inc/admin.php:827
+msgid "Priority & Live Chat support"
+msgstr "Приоритетная поддержка и поддержка в чате"
+
+#: inc/admin.php:785
+msgid "Here’s %1$show%2$s to install Optimole on your WordPress site in 3 steps."
+msgstr "Вот %1$sкак%2$s установить Optimole на ваш WordPress сайт в 3 шага."
+
+#: inc/cli/cli_setting.php:126
+msgid "No setting to update"
+msgstr "Нет настроек для обновления"
+
+#: inc/conflicts/divi.php:26
+msgid "It seems your are using %1$sDivi%2$s right now. %3$s In order for Optimole to replace the images in your Divi pages, you will need to go to %4$sDivi -> Theme Options -> Builder -> Advanced -> Static CSS File Generations%5$s and click on Clear for the images to be processed. "
+msgstr "Похоже, вы сейчас используете %1$sDivi%2$s. %3$s Чтобы Optimole заменил изображения на страницах Divi, вам нужно перейти в %4$sDivi -> Theme Options -> Builder -> Advanced -> Static CSS File Generations%5$s и нажать на Clear для обработки изображений. "
+
+#: inc/admin.php:890
+msgid "Image class"
+msgstr "Класс изображения"
+
+#: inc/admin.php:911
+msgid "Lower image quality might not always be perceived by users and would result in a boost of your loading speed by lowering the page size. Try experimenting with the setting, then click the View sample image link to see what option works best for you."
+msgstr "Уменьшение качества изображения не всегда будет заметно пользователям и увеличит скорость загрузки, уменьшив размер страницы. Попробуйте поэкспериментировать с этой настройкой, затем кликните Посмотреть пример изображения, чтобы увидеть, какой вариант лучше для вас."
+
+#: inc/admin.php:896
+msgid "Automatically convert GIF images to Video files(MP4 and WebM)"
+msgstr "Автоматически конвертировать GIF-изображения в Видео-файлы (MP4 и WebM)"
+
+#: inc/admin.php:863
+msgid "Enable Gif to Video conversion"
+msgstr "Включить конверсию GIF в Видео"
+
+#: inc/admin.php:935
+msgid "You can add each CSS selector on a new line or separated by comma(,)."
+msgstr "Вы можете добавить каждый CSS-селектор с новой строки или разделив запятой(,)"
+
+#: inc/admin.php:936
+msgid "Lazyload background images for selectors:"
+msgstr "Lazyload для фоновых изображений для селекторов:"
+
+#: inc/admin.php:859
+msgid "Lazyload images used as CSS backgrounds."
+msgstr "Lazyload изображения, используемые как CSS фоны"
+
+#: inc/admin.php:860
+msgid "Enable lazyload for background images"
+msgstr "Включить lazyload для фоновых изображений"
+
+#: inc/admin.php:877
+msgid "Deliver retina ready images to your visitors"
+msgstr "Доставлять retina-изображения вашим посетителям"
+
+#: inc/admin.php:878
+msgid "Enable Retina images"
+msgstr "Включить Retina изображения"
+
+#: inc/admin.php:871
+msgid "Enabling this might affect the user experience in some cases, however it will reduce the number of total requests and page weight. Try it out and see how works best for you!"
+msgstr "Включение этой опции может повлиять на пользовательский опыт, однако снизит количество запросов и вес страницы. Попробуйте и решите, как лучше для вас!"
+
+#: inc/admin.php:912
+msgid "Selected value"
+msgstr "Выбранное значение"
+
+#: inc/admin.php:1011
+msgid "We are currently optimizing your images. Meanwhile you can visit your %1$shomepage%2$s and check how our plugin performs. "
+msgstr "Сейчас мы оптимизируем ваши изображения. Пока можете посетить вашу %1$sглавную страницу%2$s и проверить, как работает наш плагин."
+
+#: inc/admin.php:852
+msgid "Connecting your site to the Optimole service."
+msgstr "Идет подключение вашего сайта к сервису Optimole."
+
+#: inc/admin.php:843
+msgid "Add filter"
+msgstr "Добавить фильтр"
+
+#: inc/admin.php:934
+msgid "View sample image"
+msgstr "Посмотреть пример изображения"
+
+#: inc/admin.php:855
+msgid "All done, Optimole is currently optimizing your site."
+msgstr "Готово, в данный момент Optimole оптимизирует ваш сайт."
+
+#: inc/admin.php:854
+msgid "Inspecting the images from your site."
+msgstr "Проверяем изображения с вашего сайта."
+
+#: inc/admin.php:853
+msgid "Checking for possible conflicts."
+msgstr "Проверяем на возможные конфликты."
+
+#: inc/admin.php:884
+msgid "Don't optimize images if"
+msgstr "Не оптимизировать изображения если"
+
+#: inc/admin.php:891
+msgid "Image extension"
+msgstr "Расширение изображения"
+
+#: inc/admin.php:892
+msgid "Image filename"
+msgstr "Имя изображения"
+
+#: inc/admin.php:894
+msgid "is"
+msgstr "есть"
+
+#: inc/admin.php:893
+msgid "contains"
+msgstr "содержит"
+
+#: inc/admin.php:874
+msgid "Enable network based optimizations"
+msgstr "Включить сетевую оптимизацию"
+
+#: inc/admin.php:816
+msgid "Watermark"
+msgstr "Водяной знак"
+
+#: inc/admin.php:895
+msgid "Page URL"
+msgstr "URL страницы"
+
+#: inc/admin.php:810
+msgid "Compression"
+msgstr "Сжатие"
+
+#: inc/admin.php:875
+msgid "Detects the most interesting section of the image and considers it as the center of the resulting image."
+msgstr "Находит наиболее уникальный участок изображения и считает его основой для получения результирующего изображения"
+
+#: inc/admin.php:811
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: inc/admin.php:829
+msgid "Custom domain"
+msgstr "Пользовательский домен"
+
+#: inc/admin.php:883
+msgid "Don't lazyload images if"
+msgstr "Не использовать отложенную загрузку если"
+
+#: inc/admin.php:872
+msgid "Enable generic lazyload placeholder"
+msgstr "Включить общий заполнитель lazyload"
+
+#: inc/admin.php:876
+msgid "Enable Smart Cropping"
+msgstr "Включить смарт кадрирование"
+
+#: inc/admin.php:812
+msgid "General"
+msgstr "Основные"
+
+#: inc/admin.php:808
+msgid "Exclusions"
+msgstr "Исключения"
+
+#: inc/admin.php:814
+msgid "Lazyload"
+msgstr "Lazyload"
+
+#: inc/admin.php:873
+msgid "Optimole provides an option to automatically downgrade the image quality when it detects a slower network."
+msgstr "Optimole предоставляет возможность автоматически понижать качество изображения при обнаружении более медленной сети."
+
+#: inc/admin.php:809
+msgid "Resize"
+msgstr "Изменение размера"
+
+#: inc/admin.php:929
+msgid "Scale images & Lazy load"
+msgstr "Масштабирование изображений и отложенная загрузка"
+
+#: inc/admin.php:817
+msgid "Possible issues"
+msgstr "Возможные причины"
+
+#: inc/cli/cli_setting.php:40 inc/rest.php:234 inc/rest.php:270
+#: inc/rest.php:302
+msgid ". ERROR details: %s"
+msgstr ". Подробности ERROR: %s"
+
+#: inc/admin.php:820
+msgid "Details"
+msgstr "Подробнее"
+
+#: inc/admin.php:821
+msgid "I've done this."
+msgstr "Я сделал это."
+
+#: inc/admin.php:822
+msgid "No conflicts found. We are all peachy now. 🍑"
+msgstr "Конфликтов не обнаружено. Теперь у нас все в порядке. 🍑"
+
+#: inc/admin.php:819
+msgid "We might have some possible conflicts with the plugins that you use. In order to benefit from Optimole's full potential you will need to address this issues."
+msgstr "У нас могут быть некоторые возможные конфликты с плагинами, которые вы используете. Чтобы использовать весь потенциал Optimole, вам необходимо решить эти проблемы."
+
+#: inc/conflicts/beaver.php:26
+msgid "It seems your are using %1$sBeaver Builder%2$s right now. %3$s In order for Optimole to replace the images in your Beaver Builder pages, you will need to go to %4$sSettings -> Beaver Builder -> Tools%5$s and click Clear Cache for the images to be processed. "
+msgstr "Похоже, вы сейчас используете %1$sBeaver Builder%2$s. %3$s Чтобы Optimole заменил изображения на страницах Beaver Builder, вам нужно перейти в %4$sНастройки -> Beaver Builder -> Инструменты%5$s и нажать Clear Cache для обработки изображений. "
+
+#: inc/conflicts/elementor.php:26
+msgid "It seems your are using %1$sElementor%2$s right now. %3$s In order for Optimole to replace the images in your Elementor pages, you will need to go to %4$sElementor -> Tools -> General%5$s and click Regenerate files for the images to be processed. "
+msgstr "Похоже, что вы сейчас используете %1$sElementor%2$s. %3$s Для того, чтобы Optimole заменил изображения на ваших страницах Elementor, вам нужно перейти в %4$sElementor -> Инструменты -> Общие%5$s и нажать Регенерировать файлы для обработки изображений. "
+
+#: inc/conflicts/jetpack_lazyload.php:25
+msgid "It seems your are using %1$sJetpack%2$s with Lazy loading option ON. %3$s Optimole already provides a lazy loading mechanism by it's own which might conflict with this. If you would like to further use Optimole lazy loading feature, you can turn that off from %4$sJetpack -> Perfomance%5$s page. "
+msgstr "Похоже, вы используете %1$sJetpack%2$s с включенной опцией ленивой загрузки. %3$s Optimole уже предоставляет собственный механизм ленивой загрузки, который может конфликтовать с этим. Если вы хотите и дальше использовать функцию ленивой загрузки Optimole, вы можете отключить ее на странице %4$sJetpack -> Perfomance%5$s. "
+
+#: inc/conflicts/jetpack_photon.php:26
+msgid "It seems your are using %1$sJetpack%2$s with site accelerator option enabled for images. %3$s To avoid any possible conflicts with Optimole replacement mechanism, you can go to %4$sJetpack -> Perfomance%5$s and turn off the site accelerator option for %6$simages%7$s "
+msgstr "Похоже, что вы используете %1$sJetpack%2$s с включенной опцией ускорителя сайта для изображений. %3$s Чтобы избежать возможных конфликтов с механизмом замены Optimole, вы можете перейти в %4$sJetpack -> Perfomance%5$s и отключить опцию ускорителя сайта для %6$simages%7$s "
+
+#: inc/conflicts/wprocket.php:25
+msgid "It seems your are using %1$sWP Rocket%2$s with Lazy loading for images option active. %3$s Optimole already provides a lazy loading mechanism by it's own which might conflict with this. If you would like to further use Optimole lazy loading feature, you can turn that off from %4$sSettings -> WP Rocket -> Media%5$s page. "
+msgstr "Похоже, вы используете %1$sWP Rocket%2$s с активной опцией Lazy loading for images. %3$s Optimole уже предоставляет собственный механизм ленивой загрузки, который может конфликтовать с этим. Если вы хотите и дальше использовать функцию ленивой загрузки Optimole, вы можете отключить ее на странице %4$sSettings -> WP Rocket -> Media%5$s. "
+
+#: inc/admin.php:831
+msgid "View plans"
+msgstr "Посмотреть планы"
+
+#: inc/admin.php:396
+msgid "Check upgrade plans"
+msgstr "Проверьте планы обновления"
+
+#: inc/rest.php:538
+msgid "Watermark image uploaded succesfully ! "
+msgstr "Изображение водяного знака успешно загружено! "
+
+#: inc/rest.php:535
+msgid "Error uploading image. Please try again."
+msgstr "Ошибка при загрузке изображения. Пожалуйста, попробуйте еще раз."
+
+#: inc/rest.php:337
+msgid "Error creating account."
+msgstr "Ошибка при создании аккаунта."
+
+#: inc/admin.php:1006
+msgid "A value between 0 and 300 for the scale of the watermark (100 is the original size and 300 is 3x the size) relative to the resulting image size. If set to 0 it will default to the original size."
+msgstr "Значение от 0 до 300 для масштаба водяного знака (100 - исходный размер, а 300 - 3-кратный размер) относительно результирующего размера изображения. Если установлено значение 0, по умолчанию будет установлен исходный размер."
+
+#: inc/admin.php:1005
+msgid "Watermark scale"
+msgstr "Масштаб водяного знака"
+
+#: inc/admin.php:1004
+msgid "Scale"
+msgstr "Масштаб"
+
+#: inc/admin.php:1003
+msgid "Offset the watermark from set position on X and Y axis. Values can be positive or negative."
+msgstr "Смещение водяного знака от заданного положения по осям X и Y. Значения могут быть положительными или отрицательными."
+
+#: inc/admin.php:1002
+msgid "Watermark offset"
+msgstr "Смещение водяного знака"
+
+#: inc/admin.php:1001
+msgid "Offset Y"
+msgstr "Смещение Y"
+
+#: inc/admin.php:1000
+msgid "Offset X"
+msgstr "Смещение Х"
+
+#: inc/admin.php:999
+msgid "South-East"
+msgstr "Юго-Восток"
+
+#: inc/admin.php:998
+msgid "South"
+msgstr "Юг"
+
+#: inc/admin.php:997
+msgid "South-West"
+msgstr "Юго-Запад"
+
+#: inc/admin.php:996
+msgid "East"
+msgstr "Восток"
+
+#: inc/admin.php:994
+msgid "West"
+msgstr "Запад"
+
+#: inc/admin.php:993
+msgid "North-East"
+msgstr "Северо-Восток"
+
+#: inc/admin.php:992
+msgid "North"
+msgstr "Север"
+
+#: inc/admin.php:991
+msgid "North-West"
+msgstr "Северо-Запад"
+
+#: inc/admin.php:990
+msgid "The place relative to the image where the watermark should be placed."
+msgstr "Место относительно изображения, где должен быть размещен водяной знак."
+
+#: inc/admin.php:989
+msgid "Watermark position"
+msgstr "Положение водяного знака"
+
+#: inc/admin.php:988
+msgid "A value between 0 and 100 for the opacity level. If set to 0 it will disable the watermark."
+msgstr "Значение от 0 до 100 для уровня непрозрачности. Если установлено значение 0, это отключит водяной знак."
+
+#: inc/admin.php:987
+msgid "Watermark opacity"
+msgstr "Непрозрачность водяного знака"
+
+#: inc/admin.php:986
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: inc/admin.php:985
+msgid "The active watermark to use from the list of uploaded watermarks."
+msgstr "Активный водяной знак для использования из списка загруженных водяных знаков."
+
+#: inc/admin.php:984
+msgid "Active watermark"
+msgstr "Активный водяной знак"
+
+#: inc/admin.php:983
+msgid "Add new watermark"
+msgstr "Добавить новый водяной знак"
+
+#: inc/admin.php:982
+msgid "Upload"
+msgstr "Загрузить"
+
+#: inc/admin.php:981
+msgid "Action"
+msgstr "Действие"
+
+#: inc/admin.php:980
+msgid "Type"
+msgstr "Тип"
+
+#: inc/admin.php:979
+msgid "Name"
+msgstr "Имя"
+
+#: inc/admin.php:977
+msgid "No images available for watermark. Please upload one."
+msgstr "Отсутствуют изображения для водяного знака. Пожалуйста, загрузите его."
+
+#: inc/admin.php:975
+msgid "Possible watermarks"
+msgstr "Возможные водяные знаки"
+
+#: optimole-wp.php:58
+msgid "%1$s You're using a PHP version lower than 5.4! %2$sOptimole%3$s requires at least %4$sPHP 5.4%5$s to function properly. Plugin has been deactivated. %6$sLearn more here%5$s. %7$s"
+msgstr "%1$s Вы используете версию PHP ниже 5.4! Для правильной работы %2$sOptimole%3$s требуется как минимум %4$sPHP 5.4%5$s. Плагин был деактивирован. %6$sУзнайте больше здесь%5$s. %7$s"
+
+#: inc/admin.php:995
+msgid "Center"
+msgstr "По центру"
+
+#: inc/admin.php:978
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin.php:976
+msgid "Watermarks position settings"
+msgstr "Настройки положения водяных знаков"
+
+#: inc/admin.php:973
+msgid "Removing watermark resource ..."
+msgstr "Удаление ресурса водяного знака..."
+
+#: inc/admin.php:974
+msgid "You are allowed to save maximum 5 images."
+msgstr "Вы можете сохранить максимум 5 изображений."
+
+#: inc/admin.php:800
+msgid ""
+"It seems there is an issue with your WordPress configuration and the core REST API functionality is not available. This is crucial as Optimole relies on this functionality in order to work.<br/>\n"
+"The root cause might be either a security plugin which blocks this feature or some faulty server configuration which constrain this WordPress feature.You can try to disable any of the security plugins that you use in order to see if the issue persists or ask the hosting company to further investigate."
+msgstr ""
+"Похоже, что есть проблема с вашей конфигурацией WordPress, и основные функции REST API недоступны. Это очень важно, поскольку Optimole полагается на эту функциональность в своей работе. <br/>\n"
+"Основной причиной может быть либо плагин безопасности, который блокирует эту функцию, либо некоторая неправильная конфигурация сервера, которая ограничивает эту функцию WordPress. Вы можете попробовать отключить любой из плагинов безопасности, которые вы используете, чтобы увидеть, сохраняется ли проблема, или спросите хостинговую компанию для дальнейшего расследования."
+
+#: inc/admin.php:460
+msgid "I will do it later"
+msgstr "Я сделаю это позже"
+
+#: inc/admin.php:458
+msgid "Connect to OptiMole"
+msgstr "Подключиться к OptiMole"
+
+#: inc/admin.php:903
+msgid "We will generate images size based on your visitor's screen using javascript and render them without blocking the page execution via lazyload ."
+msgstr "Мы сгенерируем размер изображений на основе экрана Вашего посетителя, используя javascript, и отобразим их, не блокируя выполнение страницы с помощью ленивой загрузки."
+
+#: inc/admin.php:455
+msgid "Welcome to %1$sOptiMole%2$s, the easiest way to optimize your website images. Your users will enjoy a %3$sfaster%4$s website after you connect it with our service."
+msgstr "Добро пожаловать в %1$sOptiMole%2$s, самый простой способ оптимизации изображений вашего сайта. Ваши пользователи будут наслаждаться %3$sболее быстрым%4$s веб-сайтом после того, как вы подключите его к нашему сервису."
+
+#: inc/admin.php:917 inc/admin.php:1007
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: inc/admin.php:897
+msgid "Height"
+msgstr "Высота"
+
+#: inc/admin.php:937
+msgid "Width"
+msgstr "Ширина"
+
+#: inc/admin.php:845
+msgid "Show in the WordPress admin bar the available quota from Optimole service."
+msgstr "Показать в админ-панели WordPress доступную квоту от сервиса Optimole."
+
+#: inc/admin.php:915
+msgid "Replace all the image urls from your website with the ones optimized by Optimole."
+msgstr "Замените все URL-адреса изображений с вашего сайта на оптимизированные Optimole."
+
+#: inc/admin.php:913
+msgid "See one sample image which will help you choose the right quality of the compression."
+msgstr "Посмотрите пример изображения, который поможет вам выбрать правильное качество сжатия."
+
+#: inc/admin.php:907
+msgid "You dont have any images in your Media Library. Add one and check how the Optimole will perform."
+msgstr "У вас нет изображений в вашей медиатеке. Добавьте один и проверьте, как будет работать Optimole."
+
+#: inc/admin.php:916
+msgid "Loading a sample image. "
+msgstr "Загрузка образца изображения."
+
+#: inc/admin.php:902
+msgid "Optimized"
+msgstr "Оптимизированный"
+
+#: inc/admin.php:901
+msgid "Original"
+msgstr "Оригинал"
+
+#: inc/admin.php:909
+msgid "Option saved."
+msgstr "Вариант сохранен."
+
+#: inc/admin.php:846
+msgid "Auto"
+msgstr "Авто"
+
+#: inc/admin.php:905
+msgid "Low"
+msgstr "Низкий"
+
+#: inc/admin.php:906
+msgid "Medium"
+msgstr "Средний"
+
+#: inc/admin.php:900
+msgid "High"
+msgstr "Высокий"
+
+#: inc/admin.php:806
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: inc/admin.php:772
+msgid "In order to get access to free image optimization service you will need an API key from %s."
+msgstr "Чтобы получить доступ к сервису бесплатной оптимизации изображений, вы должны запросить API-ключ в %s."
+
+#: inc/admin.php:759
+msgid "I already have an API key."
+msgstr "У меня уже имеется API ключ"
+
+#: inc/admin.php:732
+msgid "Test Optimole"
+msgstr "Тест Optimole"
+
+#: inc/admin.php:744
+msgid "Sign-up for API key"
+msgstr "Зарегистрируйтесь для получения ключа к АПИ"
+
+#: inc/admin.php:318 inc/admin.php:807
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/admin.php:756
+msgid "Enter your API key."
+msgstr "Введите Ваш API-ключ."
+
+#: inc/admin.php:762
+msgid "Error registering account. You can try again %1$shere%2$s "
+msgstr "Ошибка при регистрации учетной записи. Вы можете попробовать еще раз %1$sсдесь%2$s "
+
+#: inc/admin.php:733
+msgid "Image optimization service"
+msgstr "Услуга оптимизации изображений"
+
+#: inc/admin.php:731
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+#: inc/admin.php:753
+msgid "Your email address"
+msgstr "Ваша эл. почта"
+
+#: inc/admin.php:730
+msgid "Terms"
+msgstr "Термины"
+
+#: inc/admin.php:760
+msgid "Register account"
+msgstr "Регистрация аккаунта"
+
+#: inc/admin.php:1013
+msgid "Loading your optimized images..."
+msgstr "Загрузка оптимизированных изображений..."
+
+#. Plugin Name of the plugin
+msgid "Image optimization service by Optimole"
+msgstr "Image optimization service by Optimole"
+
+#: inc/admin.php:879
+msgid "Enabled"
+msgstr "Включено"
+
+#: inc/admin.php:745
+msgid "Invalid API Key"
+msgstr "Неверный ключ API"
+
+#: inc/admin.php:743
+msgid "API Key"
+msgstr "Ключ API"
+
+#: inc/admin.php:1012
+msgid "Optimization"
+msgstr "Оптимизация"
+
+#: inc/admin.php:856
+msgid "Disabled"
+msgstr "Отключено"
+
+#: inc/admin.php:1015
+msgid "optimized images"
+msgstr "оптимизированные изображения"
+
+#. Author of the plugin
+msgid "Optimole"
+msgstr "Optimole"
+
+#. Description of the plugin
+msgid "Complete handling of your website images."
+msgstr "Завершите обработку изображений Вашего сайта."
+
+#: inc/admin.php:928
+msgid "Admin bar status"
+msgstr "Статус админ панели"
+
+#: inc/cli/cli_setting.php:43 inc/rest.php:272 inc/rest.php:304
+msgid "Can not connect to Optimole service"
+msgstr "Не удается подключиться к службе Optimole"
+
+#: inc/api.php:376 inc/api.php:388 inc/lazyload_replacer.php:533
+#: inc/lazyload_replacer.php:546 inc/main.php:227 inc/main.php:237
+#: inc/manager.php:633 inc/manager.php:646 inc/tag_replacer.php:491
+#: inc/tag_replacer.php:504 inc/url_replacer.php:276 inc/url_replacer.php:289
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: inc/admin.php:735
+msgid "Disconnect"
+msgstr "Отключить"
+
+#: inc/admin.php:870
+msgid "Enable image replacement"
+msgstr "Включить замену изображения"
+
+#: inc/admin.php:899
+msgid "Hide"
+msgstr "Скрыть"
+
+#. Author URI of the plugin
+msgid "https://optimole.com"
+msgstr "https://optimole.com"
+
+#: inc/admin.php:972 inc/admin.php:1010
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/admin.php:1014
+msgid "Last"
+msgstr "Последний"
+
+#: inc/admin.php:765
+msgid "Monthly Usage"
+msgstr "Ежемесячное использование"
+
+#: inc/admin.php:918
+msgid "Show"
+msgstr "Показать"
+
+#: inc/admin.php:1018
+msgid "🤓 We are on the right track, <strong>{ratio}</strong> squeezed."
+msgstr "🤓 Мы на правильном пути, <strong>{ratio}</strong> сжато."
+
+#: inc/admin.php:1016
+msgid "🙉 We couldn't do better, this image is already optimized at maximum. "
+msgstr "🙉 Мы не смогли сделать лучше, это изображение уже оптимизировано по максимуму. "
+
+#: inc/admin.php:1017
+msgid "😬 Not that much, just <strong>{ratio}</strong> smaller."
+msgstr "😬 Не так уж и много, просто уменьшилось <strong>{ratio}</strong>."
+
+#: inc/admin.php:1019
+msgid "❤️❤️❤️ Our moles just nailed it, this one is <strong>{ratio}</strong> smaller.  "
+msgstr "❤️❤️❤️ Наши родинки сделали это снова, эта <strong> {ratio} </strong> меньше. "

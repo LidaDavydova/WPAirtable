@@ -1,0 +1,20 @@
+2022-07-26T09:29:19+00:00 CRITICAL syntax error, unexpected identifier "add_action" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 21
+
+2022-07-26T20:15:15+00:00 CRITICAL Unclosed '{' on line 177 в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 207
+
+2022-07-26T20:16:16+00:00 CRITICAL syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 206
+
+2022-07-26T20:19:48+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 209
+
+2022-07-26T20:19:51+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 209
+
+2022-07-26T20:23:15+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 17
+
+2022-07-26T20:25:16+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 17
+
+2022-07-26T20:27:17+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 17
+
+2022-07-26T20:29:18+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 17
+
+2022-07-26T20:30:44+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 19
+

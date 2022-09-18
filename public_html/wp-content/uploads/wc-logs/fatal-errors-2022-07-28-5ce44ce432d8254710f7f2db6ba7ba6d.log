@@ -1,0 +1,152 @@
+2022-07-28T06:59:23+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:109
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 109
+
+2022-07-28T07:00:12+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:110
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 110
+
+2022-07-28T07:00:29+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:106
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 106
+
+2022-07-28T07:03:55+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:106
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 106
+
+2022-07-28T07:04:31+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:110
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 110
+
+2022-07-28T07:05:54+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:110
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 110
+
+2022-07-28T07:06:06+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:110
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 110
+
+2022-07-28T07:07:05+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php:109
+Stack trace:
+#0 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-widget.php(393): TutsplusText_Widget->widget()
+#1 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#2 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/inc/footer-function.php(136): dynamic_sidebar()
+#3 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(307): top_store_widget_footer_markup()
+#4 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#6 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/footer.php(17): do_action()
+#7 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(770): require_once('...')
+#8 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template.php(716): load_template()
+#9 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/general-template.php(92): locate_template()
+#10 /home/admin/web/5.kpipartners.ru/public_html/wp-content/themes/top-store/woocommerce.php(43): get_footer()
+#11 /home/admin/web/5.kpipartners.ru/public_html/wp-includes/template-loader.php(106): include('...')
+#12 /home/admin/web/5.kpipartners.ru/public_html/wp-blog-header.php(19): require_once('...')
+#13 /home/admin/web/5.kpipartners.ru/public_html/index.php(17): require('...')
+#14 {main}
+  thrown в /home/admin/web/5.kpipartners.ru/public_html/wp-content/plugins/wp-wc-add/wp-wc-add.php на строке 109
+
